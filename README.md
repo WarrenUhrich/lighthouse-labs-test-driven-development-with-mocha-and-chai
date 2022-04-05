@@ -4,7 +4,7 @@
 - [X] Test-Driven Development Cycle
 - [X] Assertions (`console` and NodeJS `assert`)
 - [X] Modules in NodeJS; Getting Files to Share
-- [ ] NPM and using External Libraries
+- [X] NPM and using External Libraries
 - [ ] Mocha Test Runner
 - [ ] Ignoring Files and/or Folders with `.gitignore`
 - [ ] Chai Assertion Library

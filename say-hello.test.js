@@ -1,3 +1,4 @@
+// Manual testing of sayHello.
 const assert = require('assert'); // No path; this library is built into NodeJS.
 
 const ourFunctions = require('./say-hello');
