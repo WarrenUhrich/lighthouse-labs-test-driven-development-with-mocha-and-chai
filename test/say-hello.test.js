@@ -1,5 +1,6 @@
 // AUTOMATED TESTING!
 
+// TO RUN TESTS, RUN:
 // ./node_modules/mocha/bin/mocha
 
 // Mocha WILL run this file!
