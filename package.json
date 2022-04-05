@@ -1,0 +1,30 @@
+{
+  "name": "lighthouse-labs-test-driven-development-with-mocha-and-chai",
+  "version": "1.0.0",
+  "description": "TDD with Mocha and Chai lecture.",
+  "main": "say-hello.js",
+  "scripts": {
+    "test": "./node_modules/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai.git"
+  },
+  "keywords": [
+    "lhl",
+    "tests",
+    "mocha",
+    "chai",
+    "nodejs",
+    "npm"
+  ],
+  "author": "Warren Uhrich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai/issues"
+  },
+  "homepage": "https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai#readme",
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  }
+}

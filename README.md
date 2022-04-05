@@ -46,3 +46,15 @@ An approach to software projects and development that places priority on the wri
     * Manual
     * Automated
 4. Error Handling
+
+## NPM
+
+Automated walkthrough to create your package.json file.
+`npm init` creates ---> `package.json`
+
+Installing packages:
+`npm install package-name`
+`npm install --save-dev package-name`
+`npm install --global package-name`
+
+
