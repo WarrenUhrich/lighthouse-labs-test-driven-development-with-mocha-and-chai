@@ -26,3 +26,23 @@
 * Easily repeatable
 * Result accuracy (removing some human)
 * Encourages modularity
+
+## Test-Driven Development
+
+An approach to software projects and development that places priority on the writing of test cases before code.
+
+1. Write a test (or tests) that confirms the feature is working correctly.
+2. Write the code for the feature, ensuring it passes the test.
+3. Refactoring (cleaning up your code, removing extras, logging, etc.)
+
+## Improving Code Quality
+
+1. Refactoring
+    * Removing extraneous comments.
+    * Removing extra logging.
+    * Consistent tabs / white-space for readability.
+2. Consider object-oriented approach for modularity, or breaking repeated tasks into function.
+3. Testing
+    * Manual
+    * Automated
+4. Error Handling
