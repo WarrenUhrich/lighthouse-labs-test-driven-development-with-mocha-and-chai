@@ -12,6 +12,12 @@ const ourFunctions = require('../say-hello');
 const sayHello = ourFunctions.sayHello;
 
 describe('tests for sayHello function', () => {
+    it('returns a string', () => {
+        const actual = sayHello('Ed');
+        
+        assert.isString(actual);
+    });
+
     it('returns "Hello there, Sneha!" when given string "Sneha"', () => {
         const actual = sayHello('Sneha');
         const expected = 'Hello there, Sneha!';
