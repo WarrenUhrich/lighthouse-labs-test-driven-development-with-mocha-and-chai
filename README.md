@@ -1,7 +1,7 @@
 # Lighthouse Labs | Test-Driven Development with Mocha and Chai
 
 - [X] Lets Talk Manual Versus Automated Testing
-- [ ] Test-Driven Development Cycle
+- [X] Test-Driven Development Cycle
 - [ ] Assertions (`console` and NodeJS `assert`)
 - [ ] Modules in NodeJS; Getting Files to Share
 - [ ] NPM and using External Libraries
