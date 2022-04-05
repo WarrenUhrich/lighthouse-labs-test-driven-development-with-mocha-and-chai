@@ -5,9 +5,9 @@
 - [X] Assertions (`console` and NodeJS `assert`)
 - [X] Modules in NodeJS; Getting Files to Share
 - [X] NPM and using External Libraries
-- [ ] Mocha Test Runner
-- [ ] Ignoring Files and/or Folders with `.gitignore`
-- [ ] Chai Assertion Library
+- [X] Mocha Test Runner
+- [X] Ignoring Files and/or Folders with `.gitignore`
+- [X] Chai Assertion Library
 
 ## Manual versus Automated
 

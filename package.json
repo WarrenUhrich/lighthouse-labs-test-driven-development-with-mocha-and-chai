@@ -4,7 +4,8 @@
   "description": "TDD with Mocha and Chai lecture.",
   "main": "say-hello.js",
   "scripts": {
-    "test": "./node_modules/bin/mocha"
+    "manualtest": "node say-hello.test.js",
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   },
   "homepage": "https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai#readme",
   "devDependencies": {
+    "chai": "^4.3.6",
     "mocha": "^9.2.2"
   }
 }

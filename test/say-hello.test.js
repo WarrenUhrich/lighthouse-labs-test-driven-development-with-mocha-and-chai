@@ -1,9 +1,12 @@
 // AUTOMATED TESTING!
 
+// ./node_modules/mocha/bin/mocha
+
 // Mocha WILL run this file!
 // It is in the ./tests/ folder!
 
-const assert = require('assert'); // No path; this library is built into NodeJS.
+// const assert = require('assert'); // No path; this library is built into NodeJS.
+const assert = require('chai').assert; // Using Chai instead of NodeJS assert now!
 
 const ourFunctions = require('../say-hello');
 const sayHello = ourFunctions.sayHello;
