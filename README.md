@@ -1,5 +1,7 @@
 # Lighthouse Labs | Test-Driven Development with Mocha and Chai
 
+[GitHub Repository and Branch](https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai/tree/2022.04.05-web-flex-mar-21-day-test-driven-development-with-mocha-and-chai) | [Vimeo Video]()
+
 - [X] Lets Talk Manual Versus Automated Testing
 - [X] Test-Driven Development Cycle
 - [X] Assertions (`console` and NodeJS `assert`)
@@ -504,7 +506,14 @@ Chai's assert API is *compatible* with NodeJS', but has many, many more options!
 ## Resources
 
 * [Wikipedia: Test-driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
-* [NodeJS: Assert](https://nodejs.org/api/assert.html#assert)
+* [MDN: JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/)
+    * [MDN: console.assert()](https://developer.mozilla.org/en-US/docs/Web/API/Console/assert)
+    * [MDN: arguments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)
+    * [MDN: try...catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
+* [NodeJS: Docs](https://nodejs.org/docs/latest-v15.x/api/)
+    * [NodeJS: CommonJS Modules](https://nodejs.org/api/modules.html#modules-commonjs-modules)
+        * [NodeJS: Module Wrapper](https://nodejs.org/api/modules.html#the-module-wrapper)
+    * [NodeJS: Assert](https://nodejs.org/api/assert.html#assert)
 * [npmjs.com](https://www.npmjs.com/)
 * [.gitignore](https://git-scm.com/docs/gitignore)
   * [.gitignore Generator](https://www.toptal.com/developers/gitignore)
