@@ -1,6 +1,6 @@
 # Lighthouse Labs | Test-Driven Development with Mocha and Chai
 
-If you missed your morning coffee, mocha and chai will be sure to keep you awake!
+If you missed your morning coffee, Mocha and Chai will be sure to keep you awake!
 
 [GitHub Repository and Branch](https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai/tree/2022.04.05-web-flex-mar-21-day-test-driven-development-with-mocha-and-chai) | [Vimeo Video](https://vimeo.com/696262354/978bcfda6f)
 
