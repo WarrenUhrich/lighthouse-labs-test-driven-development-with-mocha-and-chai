@@ -1,4 +1,4 @@
-const assert = require('assert').chai;
+const assert = require('chai').assert;
 const {sayHello} = require('../say-hello');
 
 describe('tests for sayHello function', () => {
