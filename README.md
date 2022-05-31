@@ -100,6 +100,7 @@ try {
 Manual testing, we type stuff and see if it works. It is one of the slowest ways of doing things, and the most expensive, as you'll be doing this many, *many*, ***many*** times as the project grows and grows... 
 
 **say-hello.js**
+
 ```JavaScript
 const sayHello (name) => {
   console.log(`Hello there, ${name}!`);
