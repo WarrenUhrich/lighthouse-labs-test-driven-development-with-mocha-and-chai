@@ -231,6 +231,7 @@ This calls for us to be careful about when we run tests, and this tells us we'll
 If our first file is called `say-hello.js` we may want to call our second, related file, something similar to imply a relationship: `say-hello.test.js`.
 
 **say-hello.js**
+
 ```JavaScript
 const sayHello = (name) => {
   return `Hello there, ${name}!`;
@@ -238,6 +239,7 @@ const sayHello = (name) => {
 ```
 
 **say-hello.test.js** `// Note that ".test" doesn't mean anything! It is just so we know it is for testing.`
+
 ```JavaScript
 const assert = require('assert');
 // How do we get our sayHello() function in here!?
@@ -269,6 +271,7 @@ In your file feel free to run a test to confirm the presence of this wrapper: `c
 Exports, by default, is an empty object. We can rewrite its contents completely, or populate the object with named properties. Back to where we were...
 
 **say-hello.js**
+
 ```JavaScript
 const sayHello = (name) => {
   return `Hello there, ${name}!`;
@@ -280,6 +283,7 @@ module.exports = sayHello; // No parenthesis, we don't want it to run RIGHT HERE
 Now we can `require` it in other files. Let's get it into our test file:
 
 **say-hello.test.js** `// Note that ".test" doesn't mean anything! It is just so we know it is for testing.`
+
 ```JavaScript
 const assert = require('assert');
 const sayHello = require('./say-hello'); // For our own files, we must use relative or absolute paths.
@@ -302,6 +306,7 @@ module.exports = {
   pi: 3.14
 };
 ```
+
 In either of the above ways, `sayHello` could be accessed via `const sayHello = require('./say-hello').sayHello;` or `const {sayHello} = require('./say-hello');`. In those formats, `sayHello` is an object property/method so we just have to make sure we treat it as such when accessing it. When in doubt, double check how values are exported, console log, and explore the format of what you're `require`-ing in!
 
 ## Using NPM
@@ -409,6 +414,7 @@ describe('tests for sayHello function', () => {
 Let's check for an error this time.
 
 **./say-hello.js**
+
 ```JavaScript
 const sayHello = (name) => {
   return `Hello there, ${name}!`;
@@ -421,6 +427,7 @@ module.exports = {
 ```
 
 **./tests/say-hello.test.js**
+
 ```JavaScript
 const assert = require('assert');
 const { sayHello, throwErrorFunc } = require('../sayHello');
