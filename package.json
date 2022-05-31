@@ -1,0 +1,26 @@
+{
+  "name": "lighthouse-labs-test-driven-development-with-mocha-and-chai",
+  "version": "1.0.0",
+  "description": "Lighthouse Labs TDD w/Mocha and Chai lecture.",
+  "main": "native-assert-examples.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai.git"
+  },
+  "keywords": [
+    "Testing",
+    "Examples"
+  ],
+  "author": "Warren Uhrich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai/issues"
+  },
+  "homepage": "https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai#readme",
+  "dependencies": {
+    "mocha": "^10.0.0"
+  }
+}
