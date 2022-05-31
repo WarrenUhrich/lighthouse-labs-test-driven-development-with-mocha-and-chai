@@ -1,6 +1,6 @@
 # Lighthouse Labs | Test Driven Development with Mocha and Chai
 
-[GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai/tree/2022.05.31-16may2022) | Vimeo Video Recording (Soon!)
+[GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai/tree/2022.05.31-16may2022) | [Vimeo Video Recording](https://vimeo.com/715798365/87ab70b210)
 
 * [X] Let's Talk Manual Versus Automated Testing
 * [X] Test-Driven Development Cycle
