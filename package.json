@@ -4,7 +4,7 @@
   "description": "Lighthouse Labs TDD w/Mocha and Chai lecture.",
   "main": "native-assert-examples.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
