@@ -1,5 +1,7 @@
 # Lighthouse Labs | Test Driven Development with Mocha and Chai
 
+[GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai/tree/2023.03.13-web-ft-east-06march2023) | [Vimeo Video Recording (Coming Soon!)](#coming-soon)
+
 * [X] Test-Driven Development
 * [X] Assertions (console and NodeJS assert)
 * [X] CommonJS Modules
