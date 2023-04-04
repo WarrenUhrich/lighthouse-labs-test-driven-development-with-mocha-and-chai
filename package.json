@@ -1,0 +1,27 @@
+{
+  "name": "lighthouse-labs-test-driven-development-with-mocha-and-chai",
+  "version": "1.0.0",
+  "description": "Experimenting with test-driven development and Mocha + Chai.",
+  "main": "mocha-experiment.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai.git"
+  },
+  "keywords": [
+    "Mocha",
+    "Chai",
+    "testing"
+  ],
+  "author": "Warren Uhrich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai/issues"
+  },
+  "homepage": "https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai#readme",
+  "dependencies": {
+    "mocha": "^10.2.0"
+  }
+}
