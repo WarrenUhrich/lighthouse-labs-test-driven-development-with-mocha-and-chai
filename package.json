@@ -4,7 +4,8 @@
   "description": "Experimenting with test-driven development and Mocha + Chai.",
   "main": "mocha-experiment.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/mocha/bin/mocha.js",
+    "custom": "echo 'Hello, World!'"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai#readme",
   "dependencies": {
+    "chai": "^4.3.7",
     "mocha": "^10.2.0"
   }
 }
