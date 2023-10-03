@@ -1,0 +1,30 @@
+{
+  "name": "lighthouse-labs-test-driven-development-with-mocha-and-chai",
+  "version": "1.0.0",
+  "description": "Practice with assertions, Mocha, and Chai.",
+  "main": "myApp.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha.js",
+    "custom": "echo 'Hello World'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai.git"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "testing",
+    "practice"
+  ],
+  "author": "Warren Uhrich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai/issues"
+  },
+  "homepage": "https://github.com/WarrenUhrich/lighthouse-labs-test-driven-development-with-mocha-and-chai#readme",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  }
+}
